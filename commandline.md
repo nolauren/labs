@@ -38,7 +38,7 @@ cd Desktop
 ```
 Now pick another directory to move into. 
 
-Now let's back up! Let's say I want to go back to the previous directory. We can use `cd ..`. 
+Now let's back up! Let's say I want to go back to the previous directory. We can use `cd ..`
 
 You can also give it the complete file name. For example, another way to get where we are now would be the following:
 
@@ -52,8 +52,13 @@ A lot of things you can do pointing and clicking on your computer you can do her
 ```sh
 mkdir NAME
 ```
-Can you see the new director using the `ls` command?
+Can you see the new directory using the `ls` command?
 Now look on your desktop. Can you see it?
+Now go back to your terminal and let's open it!
+
+```sh
+open NAMEOFDIRECTORY
+```
 
 So maybe we don't actually want this directory. No problem! Let's remove it. 
 
