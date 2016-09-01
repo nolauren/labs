@@ -1,7 +1,14 @@
 # Lab - Markdown
 
+1. Go to the Repository: funwithMD
+2. Click: Create a New File 
+3. Provide a name for the file and add the extension .md For example, "tilton.md"
+4. On this page, click on "raw" and copy and paste everything below in your new .md file. 
+5. Follow the instructions below in your new file.
 
-Complete the following items using Markdown:
+---
+
+Complete the following items using Markdown.
 
 Create a section header, call it "Definition", and italicize the header.
 
