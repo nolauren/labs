@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Negro Cook's Day</title>
+                <date><!-- yyyy-mm-dd--></date>
+                <respStmt>
+                    <resp>Text encoded by</resp>
+                    <name>Zachary Hughes</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>University of North Carolina at Chapel Hill Library</publisher>
+                <pubPlace>University of North Carolina at Chapel Hill</pubPlace>
+                <date>2016</date>
+                <availability status="unknown">
+                    <p>The Library of Congress is not aware of any copyright in the documents in this collection. As far
+                        as is known, the documents were written by U.S. Government employees. Generally speaking, works
+                        created by U.S. Government employees are not eligible for copyright protection in the United
+                        States, although they may be under copyright in some foreign countries. The persons interviewed
+                        or whose words were transcribed were generally not employees of the U.S. Government. Privacy and
+                        publicity rights may apply.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="titlepage">A Negro Cook's Day</title>
+			<respStmt>
+                   		 <name>George S Barnard</name>
+                   		 <gender>male</gender>
+				<resp>interviewer</resp>
+			</respStmt>
+			<respStmt>
+                   		 <name></name>
+                    		<gender></gender>
+				<resp>reviser</resp>
+			</respStmt>
+			<respStmt>
+                   		 <name>Rosa Lee Johnson</name>
+                    		<occupation>Cook</occupation>
+                    		<gender>female</gender>
+                	    	<race>African American</race>
+				<resp>interviewee</resp>
+			</respStmt>
+
+                    </titleStmt>
+                    <extent>
+                        <!--[NUMBER OF PAGES | i.e. x pages]-->
+                        6 pages
+                    </extent>
+                    <publicationStmt>
+                        <pubPlace>
+                            University of North Carolina, Chapel Hill
+                        </pubPlace>
+                        <publisher>
+                            Federal Writers' Project of the Works Progress Administration [Southern Region]
+                        </publisher>
+                        <date>
+
+                        </date>
+                        <bibl>Barnard, George S. (interviewer): A Negro Cook's Day, Folder 1 in the Federal Writers' Project papers #3709, Southern Historical Collection, The Wilson Library, University of North Carolina at Chapel Hill</bibl>
+                    </publicationStmt>
+                    <notesStmt>
+                        <note anchored="yes">This electronic edition has been transcribed from a digital scan of the
+                            original held in the Southern Historical Collection at the University of North Carolina,
+                            Chapel Hill.
+                        </note>
+                    </notesStmt>
+                </biblFull>
+            </sourceDesc>
+
+            <physDesc>
+                <add>
+                    <p>
+                        <!-- Describe the physical document itself -->
+                        There are many editorial handwritten notes in the margins, together with some that comment on
+                        the quality of the life history. These were likely written by the reviser, and some have
+                        initials next to comments. All marginalia is tagged nearest its original location in the text.
+                    </p>
+                </add>
+            </physDesc>
+       		</fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>
+                        This project originally began as a collaboration between the University of North Carolina Chapel
+                        Hill's Southern Historical Collection, UNC Libraries, Yale University's Photogrammar Project,
+                        and Dr. Courtney Rivard's English 317 Networked Composition Course during the 2016 Spring
+                        semester. English 317 students designed the metadata schema for the Life Histories in order to
+                        put into practice theories of rhetoric and information infrastructure that they had learned and
+                        to mark up these Life Histories so that they could be integrated into the existing Photogrammar
+                        map which visualizes the photographs taken by the United States Farm Security Administration and
+                        Office of War Information. When this project is complete and all Life Histories have been
+                        integrated into the project, the result will be a platform that allows users to search and
+                        visualize what life was like during the Great Depression in way that was never before possible.
+                    </p>
+                </projectDesc>
+                <editorialDecl>
+                    <interpretation>
+                        <p>The gender of interviewees, writers, and revisers was inferred by using context clues such as
+                            in-text pronouns or occupations. Gender was not capitalized throughout.</p>
+                    </interpretation>
+                    <interpretation>
+                        <p>When pieces of metadata were missing or unavailable, the category was left blank, not null or
+                            void.</p>
+                    </interpretation>
+                    <interpretation>
+                        <p>Race was used as a proper noun throughout (example/ Black, White).</p>
+                    </interpretation>
+                    <interpretation>
+                        <p>Conventional English grammar rules were used throughout.</p>
+                    </interpretation>
+                    <interpretation>
+                        <p>When widow is given as occupation of the interviewee, an additional occupational tag is added
+                            indicating the woman’s status as unemployed.</p>
+                    </interpretation>
+                    <interpretation>
+                        <p>For the geoDecl, coordinates are extracted using the Google Maps software for the locations
+                            given by the life history. Coordinates are listed as (latitude, longitude) to match the
+                            Google Maps’ format. If no exact location is given, an approximation is made in order to
+                            improve the accessibility of search. Each geoDecl tag is also given a degree of certainty in
+                            which 1 is a precise address,.75 is a given street name, .5. is a given city, and .25 is a
+                            given county.
+                        </p>
+                    </interpretation>
+                    <interpretation>
+                        <p>
+                            In text tags include geolocations, changed names, occupations, and dates. Tag geolocation
+                            with the tag 'geoDecl' and use lat, long format. Tag changed names with the tag
+                            'changedname'. Tag occupations with the tag 'occupation'. Tag dates with the tag 'date' (if
+                            the full date is given use the format when=yyyy-mm-dd within the first tag, with quotes
+                            around the yyyy-mm-dd).
+                        </p>
+                    </interpretation>
+                    <interpretation>
+                        <p>If the life history contains a page describing categorical information in aligned columns,
+                            the mark-up will be tagged as tables, with corresponding number of rows and columns. If the
+                            life history contains one column of header information, the mark-up will be tagged with a
+                            rendition either left column or right column with the each line tagged separately.
+                        </p>
+                    </interpretation>
+                    <interpretation>
+                        <p>This life history contains two sets of page numbers, one that matches to the number and order
+                            of the pages within the document, and another whose number sequence is unknown. The page
+                            number that belongs to the unknown sequence is marked as an added note, while the number
+                            corresponding to the number of pages in the document is treated as the page number used to
+                            mark page breaks.
+                        </p>
+                        <correction>
+                            <p>
+                                When a term denoting a racial category is given, the internal text was left as it
+                                originally appears and the term is tagged with a contemporary term. When some racial
+                                categories have appropriate terms that are used interchangeably, both are given. For
+                                example, White and Caucasian.
+                            </p>
+                        </correction>
+                    </interpretation>
+                    <interpretation>
+                        <p>
+                            When an interesting topic is encountered that is deemed important, the topic is surrounded
+                            by a 'selector' tag to make these topics conducive to search.
+                        </p>
+                    </interpretation>
+                </editorialDecl>
+                <styleDefDecl scheme="css" schemeVersion="2.1"/>
+                <tagsDecl>
+                    <rendition xml:id="center">text-align: center;</rendition>
+                    <rendition xml:id="underline">text-decoration: underline;</rendition>
+                    <rendition xml:id="linethrough">text-decoration: line-through;</rendition>
+                </tagsDecl>
+            </encodingDesc>
+	<profileDesc>
+	<settingDesc>
+		<setting>
+			<place>
+				<location>
+				<address>
+				<street>Eufaula Street</street>
+				<settlement>Ozark</settlement>
+				<region>Alabama</region>
+				</address>
+				<geo>31.457799, -85.631763</geo>
+				</location>
+			</place>
+		</setting>
+	</settingDesc>
+	</profileDesc>
+	<xenodata> This is for non-TEI data.  </xenodata>
+
+    </teiHeader>
+
+    <text>
+        <front>
+            <pb n="1"/>
+            <add>
+                <note type="handwritten" place="top right">AL-1</note>
+            </add>
+            <head rend="right column">
+                <l>Dale County</l>
+                <l>George S. Barnard</l>
+                <l>Ozark, Alabama</l>
+            </head>
+            <title rend="#center">A Negro
+                <corr>African American</corr>
+                Cook's Day
+            </title>
+        </front>
+        <body>
+            My name is
+            <person sex="female">
+                <name type="person">Rosa Lee Johnson</name>
+            </person>
+            and I live in the "Hollow" back
+            behind
+            <person sex="male">
+                <name type="person">Mr. Mac Pippin</name>
+            </person>
+            's house in Ozark, Alabama. I work for
+            <person sex="female">
+                <name type="person">Mrs. Laura Barnes</name>
+            </person>
+            on
+            Eufaula Street
+            <geoDecl><certainty degree="1.0"></certainty>31.457799, -85.631763
+            </geoDecl>
+            as a
+            <occupation>cook</occupation>
+            and sort of a<occupation>maid</occupation>.
+
+            There are six of us that lives in a four-room frame house
+            back in the "Hollow". There are two beds in my room and my son--
+            he's about fifteen--and my nephew lives in that room.
+
+            We pay &#36;4.00 a month for rent. When we had hydrant water
+            we had to pay &#36;5.50 a month, but we has a well dug now so we don't
+            use no hydrant water anymore.
+
+            We ain't got but one fireplace in the house, but we don't
+            get so awful cold in the winter-time. We ain't got no bathtub or
+            toilet. We has a back-house out in the yard which we uses when
+            we needs to. Electricity? I guess we don't need any cause we all
+            go to bed early, but we has lamps and use kerosene.
+
+            <p>One of the women who lives there washes, and two of the men
+            they works out sometimes, so we all
+            <sic>gits</sic>
+            <corr>gets</corr>
+            up
+            <sic>kinder</sic>
+            <corr>kind of</corr>
+            early. I
+            generally
+            <sic>gits</sic>
+            <corr>gets</corr>
+            up about five-thirty, but don't cook no breakfast
+            there at the house, and goes on up to Miss Laura's to cook their
+            breakfast. I is the first one up there and goes ahead and makes
+            coffee and cooks eggs and things so two of the children can get off
+            to school. Then I washes all the dishes they left the night
+            before and the ones they used for breakfast and cleans up the
+            dining room and kitchen. And then I goes up and helps clean up
+            the rest of the house, and makes up beds, and sweeps the front
+            <add>
+                <note type="typed" place="centered below">1</note>
+            </add>
+
+            <pb n="2" place="top right"/>
+            <head rend="header">(A Negro
+                <corr>African American Black</corr>
+                Cook's Day)
+            </head>
+            porch and sidewalk and the rooms.</p>
+
+            Miss Laura usually orders what she wants me to cook for
+            dinner and I puts it on and goes on with my work. There may be a
+            few things she wants me to wash out, which I does. Then I serves
+            the dinner and cleans up and leaves for home about one o'clock.
+
+            Sometimes I eats up there and sometimes I carries my plate
+            home. When I does this she always fixes it up for me and she
+            gives me plenty for myself, but there ain't much left over for
+            anybody at home. White folks ain't as generous about their food as
+            <sic>th</sic>
+            they used to be.
+
+            I usually
+            <sic>gits</sic>
+            <corr>gets</corr>
+            home about two o'clock and don't ever have to
+            go back and fix dinner, as they always eats what is left at night.
+            I have to sweep the back yard about once a week. They furnishes
+            me a blue uniform to use when I'm there, but I has to keep it
+            clean, and I use a little white cap when I serves their meals.
+
+            Miss Laura is
+            <sic>kinder</sic>
+            <corr>kind of</corr>
+            old, but she
+            <sic>knoww</sic>
+            <corr>know</corr>
+            how to get along
+            with colored
+            <corr>African American</corr>
+            folks. She pays me &#36;2.50 a week. I gets off about
+            two days during the month. I don't want any more days off 'cause
+            I got no place to go except home.
+
+            I was born in Waycross, Georgia
+            <geoDecl>
+                <certainty degree="0.5">31.213551, -82.354018</certainty>
+            </geoDecl>
+            , and my folks name was
+            Smith. I don't remember exactly what month or year I was born,
+            but I'm about 31 years old.
+
+            My mamma and papa had sixteen children. My daddy was a
+            <occupation>turpentine</occupation>
+            nigger
+            <corr>African American Black</corr>
+            so he stayed in the woods most of the time,
+            but came home about every Saturday.
+
+            We lived down in Waycross for awhile and I went to school
+            a little. I don't know for how long, but reckon it was about the
+            third or fourth grade--anyway I can read and write some. We
+            <add>
+                <note type="typed" place="centered below">2</note>
+            </add>
+
+            <pb n="3" place="top right"/>
+            <head rend="header">(A Negro
+                <corr>African American Black</corr>
+                Cook's Day)
+            </head>
+            always had enough corn and syrup to eat and kept a small garden,
+            hut we never had much meat. I likes hog meat the best.
+
+            We moved away from there when I was little and went up near
+            Camilla, Georgia
+            <geoDecl>
+                <certainty degree="0.5">31.231293, -84.210461</certainty>
+            </geoDecl>
+            , where we farmed. The house was just a cabin
+            out in the fields and we farmed<selector>"on halves"</selector>--that is, the white
+            man furnished the land and mules and fertilizer and we did all the
+            work. We planted
+            <selector>cotton</selector>
+            and<selector>corn</selector>.
+
+            We played around the house and worked in the fields and I
+            helped out with nursing the young children and working around the
+            house. We didn't have many clothes, but we didn't need many--it
+            hardly ever got so awfully cold down there and we had lightwood
+            to burn during the winter months. We all had good times in hog-killing
+            time in the fall, after the cotton was picked and the
+            corn was in, 'cause there was always lots of chitlin's and hog
+            meat to eat.
+
+            I got married when I was about twelve or thirteen--I don't
+            remember exactly--but I had "courted" some before that. Me and
+            my husband got us a little farm and stayed there for a few years.
+            We were
+            <occupation>tenant farmers</occupation>
+            and at the end of the year we never had
+            anything except some more debts.
+
+            Me and my first husband didn't have any children. But he
+            died after about a year or so, so I moved to Ozark and got
+            married again. I hadn't worked in the fields all my life but was
+            sort of a house nigger<corr>African American Black</corr>, and could cook and clean up, and I gradually
+            got to where I was a pretty good<occupation>maid</occupation>. Course I'm a little
+            slow, account of being
+            <sic>kinder</sic>
+            <corr>kind of</corr>
+            fat, but I keeps everything clean.
+
+            No ma'm, I ain't got no husband right now. Well, I has got
+            <add>
+                <note type="typed" place="centered below">3</note>
+            </add>
+
+            <pb n="4" place="top right"/>
+            <head rend="header">(A Negro
+                <corr>African American Black</corr>
+                Cook's Day)
+            </head>
+            one, but we ain't living together like we was married. He lives
+            in the same house with me and the rest of them, but he don't sleep
+            with me. I's quit him, 'cause he's running around with another
+            nigger
+            <corr>African American Black</corr>
+            gal and I don't like that. He tried to kill me the other
+            night--that is, he did a lot of cussin' and rearin' around--but he
+            didn't mean it. I told the law about it and they said they would
+            take care of him, but they didn't do nothing. He ain't goin' to
+            kill me anyway. But I ain't going to get no divorce, 'cause the
+            lawyer told me what it would cost and it ain't worth it. Maybe he
+            will die before long and I won't have to. I ain't got no other
+            fellow now and don't want one. What's the use of me keeping a
+            worthless nigger
+            <corr>African American Black</corr>
+            for a husband when I don't have to?
+
+            Vote? No sir I don't vote and don't care nothing about any
+            such doings, cause that's the white folks' business. But they all
+            does a heap of talking about it sometimes and gets real mad and hot,
+            especially when they have a speeching at the Court House.
+
+            The law? I guess we is all pretty good, cause the law
+            don't ever bother us or come 'round. Yes ma'm, I likes to drink
+            <sic>licker</sic>
+            <corr>liquor</corr>, but I don't get much. But I likes
+            <selector>gin</selector>
+            the best.
+
+            I hardly ever is sick, but sometimes I has a cold. When I
+            feels
+            <sic>kinder</sic>
+            <corr>kind of</corr>
+            puny Miss Laura she doctors me up. She's a pretty
+            good doctor, but I don't like castor oil and she uses lots of it.
+            We all stays right well, but sometimes they tell us to go to the
+            doctor down at the Court House where they gives us free treatment
+            for things.
+
+            I belong to the<selector>Methodist Church</selector>--joined when I was about
+            twelve years old--and likes to go to church every Sunday. I likes
+            <add>
+                <note type="typed" place="centered below">4</note>
+            </add>
+
+            <pb n="5" place="top right"/>
+            <head rend="header">(A Negro
+                <corr>African American Black</corr>
+                Cook's Day)
+            </head>
+            to go to church 'cause I see all the other people, and we talks
+            and prays and sings, and the preacher preaches, and sometimes somebody
+            gets happy and shouts. I used to go to Sunday school, but I
+            don't hardly ever go any more. We has Sunday school on Sunday
+            afternoons 'cause in the mornings we all has to work. I don't
+            believe in no baptising and ain't got that kind of religion
+            <sic>atall</sic>
+            <corr>at all</corr>.
+
+            There's a picture show down town and I goes to it sometimes.
+            Its run ty the white folks and us sits in the balcony and we can't
+            make any noise cause they will run us out if we does. They
+            <sic>shore</sic>
+            <corr>sure</corr>
+            are pretty sometimes, but<sic>pshaw</sic>, there's things goin' on right
+            here in town--and some folks I knows--that is heaps funnier.
+
+            I whole lot rather live in town than out on the farm. You
+            don't
+            <sic>git</sic>
+            <corr>get</corr>
+            to see many folks out there and has to work mighty hard.
+            I likes to pick cotton, but I rather work in town and cook for
+            some good white folks.
+
+            I don't have much money, but I don't need much and
+            <sic>gits</sic>
+            <corr>gets</corr>
+            along all right. I wouldn't know what to do with lots of money
+            if I had it--maybe some other nigger
+            <corr>African American Black</corr>
+            would steal it from me and
+            maybe kill me to boot!
+
+            Sometimes I'll take in a wash
+            <sic>ao</sic>
+            <corr>or</corr>
+            two when I wants some extra
+            money for something special. Everything around our house is as
+            clean as we can keep it, 'cause white folks won't give washing to
+            niggers
+            <corr>African American Black</corr>
+            that keeps dirty places.
+
+            In the afternoons when I
+            <sic>gits</sic>
+            <corr>gets</corr>
+            home--when I ain't got no
+            washing to do--I just
+            <sic>sorter</sic>
+            <corr>sort of</corr>
+            sits around and talks to the neighbors.
+            <add>
+                <note type="typed" place="centered below">5</note>
+            </add>
+
+            <pb n="6" place="top right"/>
+            <head rend="header">(A Negro
+                <corr>African American Black</corr>
+                Cook's Day)
+            </head>
+            Well, it's
+            <sic>gittin'</sic>
+            <corr>getting</corr>
+            along about seven o'clock and I's got
+            to go to bed so I can
+            <sic>git</sic>
+            <corr>get</corr>
+            up in the morning and cook those white
+            <sic>chilluns'</sic>
+            <corr>childrens'</corr>
+            breakfast so they
+            <sic>kin</sic>
+            <corr>can</corr>
+            go to school on time. I has to
+            have my sleep. But you come again and ask me some more questions.
+            And
+            <sic>iffen</sic>
+            <corr>if and</corr>
+            I thinks up anything else I'll tell you about em.
+            <add>
+                <note type="typed" place="centered below">6</note>
+            </add>
+        </body>
+
+    </text>
+
+</TEI>
