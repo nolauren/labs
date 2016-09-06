@@ -16,3 +16,18 @@ And ask:
   
 
   
+-------
+
+Let's turn [Folder 1: Barnard, George S. (interviewer): A Negro Cook's Day](http://dc.lib.unc.edu/cdm/ref/collection/03709/id/1004) into tidy data. 
+
+In your group, develop a database that represents data about each interview using the methodology of tidy data. 
+Fill in at least two interviews in your database. 
+To do this, you can:
+1. Use Markdown in Github. Create a new file in funwithMD repository.
+2. The group can create a google sheet and share the link with me. I'll put the link here: YOURLINK
+
+| First Header  | Second Header |  Third Header  |  Fourth Header |  Fifth  Header  |   
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+
