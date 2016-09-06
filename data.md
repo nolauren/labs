@@ -11,7 +11,7 @@ And ask:
 * Which distinctions apply to each of these (as outlined by Christof Schoch in "Big? Smart? Clean? Messy? Data in the Humanities")?
   * structured, semi-structured, unstructured?
   * data? metadata?
-  * clean? messy?
+  * clean? messy? tidy?
   * Big data? Smart data?  If not, how might we make it big and/or smart data?
   
 
