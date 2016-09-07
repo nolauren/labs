@@ -18,10 +18,15 @@ And ask:
   
 -------
 
-Let's turn [Folder 1: Barnard, George S. (interviewer): A Negro Cook's Day](http://dc.lib.unc.edu/cdm/ref/collection/03709/id/1004) into tidy data. 
+Let's turn [UNC's Federal Writers Project Papers](http://finding-aids.lib.unc.edu/03709/) into tidy data. 
 
 In your group, develop a database that represents data about each interview using the methodology of tidy data. 
-Fill in at least three interviews in your database from [here](http://finding-aids.lib.unc.edu/03709/). 
+For the first two, do:
+
+1. [Folder 1: Barnard, George S. (interviewer): A Negro Cook's Day](http://dc.lib.unc.edu/cdm/ref/collection/03709/id/1004)
+2. [Folder 996: Three interviews](http://dc.lib.unc.edu/cdm/singleitem/collection/03709/id/1085/rec/1)
+
+Then, add other interviews of your choice in your database. 
 To do this, you can either:
 
 * Use Markdown in Github. Create a new file in funwithMD repository. Click on "raw" to see how.
