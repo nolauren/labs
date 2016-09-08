@@ -18,10 +18,11 @@ And ask:
   
 -------
 
-Let's turn [UNC's Federal Writers Project Papers](http://finding-aids.lib.unc.edu/03709/) into tidy data. 
+Let's turn [UNC's Federal Writers Project Papers](http://finding-aids.lib.unc.edu/03709/) into tidy data.  Read the description of the collection.  Take a look at [Folder 1: Barnard, George S. (interviewer): A Negro Cook's Day](http://dc.lib.unc.edu/cdm/ref/collection/03709/id/1004). Read the interview. 
 
-In your group, develop a database that represents data about each interview using the methodology of tidy data. 
-For the first two, do:
+* What questions can we ask of the interview? the collection? 
+
+With the questions we posed in mind, let's turn the collection into tidy data. Develop a database that represents data about each interview. For the first two, do:
 
 1. [Folder 1: Barnard, George S. (interviewer): A Negro Cook's Day](http://dc.lib.unc.edu/cdm/ref/collection/03709/id/1004)
 2. [Folder 996: Three interviews](http://dc.lib.unc.edu/cdm/singleitem/collection/03709/id/1085/rec/1)
