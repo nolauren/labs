@@ -37,5 +37,10 @@ To do this, you can either:
 | Content Cell  | Content Cell  | Content Cell  |Content Cell  |Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |Content Cell  |Content Cell  |
 
-* The group can create a google sheet and share the link with me. I'll put the link here: YOURLINK
+* The group can create a google sheet and share the link with me. I'll put the link here: 
+
+
+* [Spider Swagger] (https://docs.google.com/a/richmond.edu/spreadsheets/d/1oR1JShhx0ZEuL7amP71wPUOQZsgUPmGnc10-pd5NlcE/edit?usp=sharing)
+* 
+*[Harambe Swagger](https://docs.google.com/spreadsheets/d/1AM9JWSQBJ1_84Bm-qu77iO-V5ULUkEIHdeacscLe5Tk/edit?usp=sharing)
 
