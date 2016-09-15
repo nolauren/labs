@@ -43,4 +43,4 @@ Go to [Google Ngrams](https://books.google.com/ngrams).
  * [Vogue](http://bookworm.library.yale.edu/collections/vogue/)
  * [Movies](http://movies.benschmidt.org/)
  * [State of the Union Addresses](http://benschmidt.org/poli/2015-SOTU#)
- * For more on the corpus, see [Wired](https://www.wired.com/2015/10/pitfalls-of-studying-language-with-google-ngram/)]
+ * For more on the corpus, see [Wired](https://www.wired.com/2015/10/pitfalls-of-studying-language-with-google-ngram/)
