@@ -36,4 +36,10 @@ Go to [Google Ngrams](https://books.google.com/ngrams).
  * How do we account for what we see?
  
 * Play around! For more on other options, see [Google N-gram info](https://books.google.com/ngrams/info). 
-* What other challenges do we have?
+
+* So, I've done some n-grams. Now I want to use my results. Are there any challenges with this? Concerns? Questions? What do we need to pay attention to?
+
+* Other examples
+ * [Vogue](http://bookworm.library.yale.edu/collections/vogue/)
+ * [Movies](http://movies.benschmidt.org/)
+ * [State of the Union Addresses](http://benschmidt.org/poli/2015-SOTU#)
