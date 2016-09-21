@@ -148,3 +148,10 @@ bin/mallet train-topics --input texts.mallet --num-topics 10 --optimize-interval
 ```
 
 (the difference between these two is that the JSTOR sample data can’t provide multiple-word phrases for each topic, due to the way the data is provided.)
+
+-----
+
+# Next Steps
+
+1. Go to the assignment information. 
+2. Make sure to send me your data this weekend!
