@@ -1,5 +1,7 @@
 # Goals/Questions for Topic Modeling with Mallet
 
+Adapted from a workshop by Peter Leonard,
+Digital Humanities Library, Yale University
 
 ## Figure out why we would use Mallet: 
 - What is Topic Modeling?
@@ -92,7 +94,9 @@ http://books.google.com/books?id=mPOdxQgpOSUC
 
 You can use a command on Mac OS X or most other Unix systems to split a novel up into roughly 1000-word chunks, by slicing the text into 6 kilobyte sections:
 
+```sh
 split -b 6k file.txt file_
+```
 
 Replace file.txt with the name of your file, and file_ with the name of the prefix for each smaller part.  
 
@@ -104,26 +108,43 @@ https://drive.google.com/file/d/0B1glRexbIUWoODZoaU5jb1NOcEk/edit?usp=sharing
 Once you uncompress the file, you’ll see a number of folders with names such as “avian”, “bible”, etc.  These titles roughly correspond with the subjects of the journals they were pulled from.
 
 If you happen to inspect any of these individual text files, you’ll notice they’re not readable by a human because they’re just lists of word counts. This is how JSTOR can grant access to in-copyright material for text mining purposes. Even though we can’t read them easily, Mallet can still find patterns in word co-occurrence.
-Two basic steps to using Mallet
+
+Three basic steps to using Mallet:
+
+1. Make sure you and your data are in the right directory. The data should be in the mallet-2.0.7 folder.  Open your terminal and move into that folder. Use the [command line tutorial](https://github.com/introdh2016/labs/blob/master/commandline.md).
 
 The first step is to Import all your text files. The result will be a combined binary file that isn’t much use to you, but that is optimized for further work in Mallet.
 
+```sh
+bin/mallet import-dir --input NAMEOFFOLDERWITHTEXTS/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --remove-stopwords
+```
 
+Example:
+```sh
 bin/mallet import-dir --input amstudiestxt/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --remove-stopwords
+```
 
-The second step is to “Train topics” on file you created during the import process. The result will be a list of unlabeled topics, expressed by their significant, or characteristic, words
+2. The second step is to “Train topics” on file you created during the import process. The result will be a list of unlabeled topics, expressed by their significant, or characteristic, words
 
 If you’re using your own data:
-bin/mallet train-topics --input texts.mallet --num-topics 30  --output-topic-keys topic30keys.txt --xml-topic-phrase-report phrase30report.xml --output-doc-topics doc30topics.txt --optimize-interval 10 --inferencer-filename 30inferencer.mallet --random-seed 1 --num-threads 8 
 
+```sh
+bin/mallet train-topics --input texts.mallet --num-topics 30  --output-topic-keys topic30keys.txt --xml-topic-phrase-report phrase30report.xml --output-doc-topics doc30topics.txt --optimize-interval 10 --inferencer-filename 30inferencer.mallet --random-seed 1 --num-threads 8 
+```
 
 If you’re using the JSTOR sample data:
+
+```sh
+
 bin/mallet train-topics --input texts.mallet --num-topics 30  --output-topic-keys topic30keys.txt --xml-topic-report  phrase30report.xml --output-doc-topics doc30topics.txt --optimize-interval 10 --inferencer-filename 30inferencer.mallet --random-seed 1 --num-threads 8 
 
+```
 
 
-Shorter command to change number of topics
+Shorter command to change number of topics:
+
+```sh
 bin/mallet train-topics --input texts.mallet --num-topics 10 --optimize-interval 10 --random-seed 1 --num-threads 8 
-
+```
 
 (the difference between these two is that the JSTOR sample data can’t provide multiple-word phrases for each topic, due to the way the data is provided.)
