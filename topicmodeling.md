@@ -153,5 +153,5 @@ bin/mallet train-topics --input texts.mallet --num-topics 10 --optimize-interval
 
 # Next Steps
 
-1. Go to the assignment information. 
+1. Go to the [assignment information](https://github.com/introdh2016/response1_textanalysis/blob/master/assignment.md). 
 2. Make sure to send me your data this weekend!
