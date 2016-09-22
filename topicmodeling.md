@@ -146,11 +146,13 @@ Three basic steps to using Mallet:
 
 1. Make sure you and your data are in the right directory. The data should be in the mallet-2.0.7 folder.  Open your terminal and move into that folder. Use the [command line tutorial](https://github.com/introdh2016/labs/blob/master/commandline.md).
 
-2. The second step is to Import all your text files. The result will be a combined binary file that isn’t much use to you, but that is optimized for further work in Mallet.
+2. The second step is to Import all your text files. The result will be a combined binary file that isn’t much use to you, but that is optimized for further work in Mallet. The token-regex should be modified (or removed) for PC users.
 
 ```sh
 bin/mallet import-dir --input NAMEOFFOLDERWITHTEXTS/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --remove-stopwords
 ```
+
+
 
 Example:
 ```sh
