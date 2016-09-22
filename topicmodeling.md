@@ -21,7 +21,7 @@ Digital Humanities Library, Yale University
 - Downloading Mallet
 - Topic modeling with Mallet
  
---------
+--------s
 
 
 
@@ -82,12 +82,15 @@ http://programminghistorian.org/lessons/topic-modeling-and-mallet
 - How does the data need to be structured?
 
 
-
 Mallet can read in files in many formats, but most people use the program one plain-text file per ‘unit of text’. 
 So if I wanted to work with 10,000 newspaper articles, I would have 10,000 plain-text files with one article in each file, 
 all in one big directory.
 
-_Granular Units of Text_: Due to some intricacies of the algorithm, it works best to split up longer texts into “chunks” that approximate semantic units.  For shorter texts (articles, poems, etc), it’s fine to leave them as one unit. But novels probably need to be split up into smaller divisions than chapters. Matt Jockers (University of Nebraska, Lincoln) has done more work with topic-modeling literature than most: “For the books in this corpus, I found through experimentation that 1,000-word chunking was effective.” See his post: 
+----
+
+### Granular Units of Text
+
+Due to some intricacies of the algorithm, it works best to split up longer texts into “chunks” that approximate semantic units.  For shorter texts (articles, poems, etc), it’s fine to leave them as one unit. But novels probably need to be split up into smaller divisions than chapters. Matt Jockers (University of Nebraska, Lincoln) has done more work with topic-modeling literature than most: “For the books in this corpus, I found through experimentation that 1,000-word chunking was effective.” See his post: 
 http://www.matthewjockers.net/2013/04/12/secret-recipe-for-topic-modeling-themes/
 or his book:
 http://books.google.com/books?id=mPOdxQgpOSUC
@@ -100,7 +103,10 @@ split -b 6k file.txt file_
 
 Replace file.txt with the name of your file, and file_ with the name of the prefix for each smaller part.  
 
-Sample Data
+---
+
+### Sample Data
+
 Don’t have your own texts yet, or they’re not in the right format? We have a collection of journal articles from JSTOR that you can use for this workshop. Download this Zip file:
 
 https://drive.google.com/file/d/0B1glRexbIUWoODZoaU5jb1NOcEk/edit?usp=sharing
@@ -109,11 +115,15 @@ Once you uncompress the file, you’ll see a number of folders with names such a
 
 If you happen to inspect any of these individual text files, you’ll notice they’re not readable by a human because they’re just lists of word counts. This is how JSTOR can grant access to in-copyright material for text mining purposes. Even though we can’t read them easily, Mallet can still find patterns in word co-occurrence.
 
+----
+
+## Using Mallet
+
 Three basic steps to using Mallet:
 
 1. Make sure you and your data are in the right directory. The data should be in the mallet-2.0.7 folder.  Open your terminal and move into that folder. Use the [command line tutorial](https://github.com/introdh2016/labs/blob/master/commandline.md).
 
-The first step is to Import all your text files. The result will be a combined binary file that isn’t much use to you, but that is optimized for further work in Mallet.
+2. The second step is to Import all your text files. The result will be a combined binary file that isn’t much use to you, but that is optimized for further work in Mallet.
 
 ```sh
 bin/mallet import-dir --input NAMEOFFOLDERWITHTEXTS/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --remove-stopwords
@@ -124,7 +134,7 @@ Example:
 bin/mallet import-dir --input amstudiestxt/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --remove-stopwords
 ```
 
-2. The second step is to “Train topics” on file you created during the import process. The result will be a list of unlabeled topics, expressed by their significant, or characteristic, words
+3. The third step is to “Train topics” on file you created during the import process. The result will be a list of unlabeled topics, expressed by their significant, or characteristic, words
 
 If you’re using your own data:
 
