@@ -21,7 +21,9 @@ Digital Humanities Library, Yale University
 - Downloading Mallet
 - Topic modeling with Mallet
  
---------s
+--------
+
+--------
 
 
 
