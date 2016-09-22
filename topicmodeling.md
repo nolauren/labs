@@ -57,7 +57,20 @@ Mac:
 
 Java Download and Setup:
 Mallet is written in Java, a cross-platform language maintained by Oracle. Although named similarly, it has nothing to with Javascript in your web browser.
-Depending on your version of Mac OS X and what you’ve installed previously, you may already have Java installed. But most probably, you will need to install Java before you are able to use Mallet.
+Depending on your version of Mac OS X and what you’ve installed previously, you may already have Java installed. But most probably will need to install Java before you are able to use Mallet.
+
+How to check
+1. Go to Apple -> System Preferences -> You should see Java on the bottom left. 
+2. Command Line
+- Java version
+```sh
+java -version  
+```
+- Java Compiler version
+```sh
+javac -version
+```
+
 Go to this [page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 Accept the License Agreement
 Download the “Mac OS X x64” version of Java.
