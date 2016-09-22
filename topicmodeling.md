@@ -9,6 +9,8 @@ Digital Humanities Library, Yale University
 - Pros/Possibilities and Cons/Limitations?
 - What humanities questions can we ask?
 
+## Example
+
 ## Installing Mallet
 
 ## Data:
@@ -42,7 +44,13 @@ Let's take a look at Mining the Dispatch.
 
 -------------
 
+## Example
 
+Let's topic model American Quarterly in Mallet. 
+
+Now, it's your turn...
+
+-------------
 ## Installing Mallet
 
 Mac:
