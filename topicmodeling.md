@@ -180,6 +180,14 @@ bin/mallet train-topics --input texts.mallet --num-topics 30  --output-topic-key
 
 ```
 
+If you’re using the JSTOR sample data with a PC:
+
+```sh
+
+bin\mallet train-topics --input texts.mallet --num-topics 30  --output-topic-keys topic30keys.txt --xml-topic-report  phrase30report.xml --output-doc-topics doc30topics.txt --optimize-interval 10 --inferencer-filename 30inferencer.mallet --random-seed 1 --num-threads 8 
+
+```
+
 
 Shorter command to change number of topics:
 
