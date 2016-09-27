@@ -195,6 +195,12 @@ Shorter command to change number of topics:
 bin/mallet train-topics --input texts.mallet --num-topics 10 --optimize-interval 10 --random-seed 1 --num-threads 8 
 ```
 
+Shorter command to change number of topics with a PC:
+
+```sh
+bin\mallet train-topics --input texts.mallet --num-topics 10 --optimize-interval 10 --random-seed 1 --num-threads 8 
+```
+
 (the difference between these two is that the JSTOR sample data can’t provide multiple-word phrases for each topic, due to the way the data is provided.)
 
 -----
