@@ -159,6 +159,11 @@ Example:
 bin/mallet import-dir --input amstudiestxt/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --remove-stopwords
 ```
 
+For PC:
+```sh
+bin\mallet import-dir --input amstudiestxt\ --output texts.mallet --keep-sequence --remove-stopwords
+```
+
 3. The third step is to “Train topics” on file you created during the import process. The result will be a list of unlabeled topics, expressed by their significant, or characteristic, words
 
 If you’re using your own data:
