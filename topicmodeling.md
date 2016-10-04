@@ -211,6 +211,12 @@ Create a file (NAMEOFFILE.txt) with your stop words and put it directly in the m
 bin/mallet import-dir --input NAMEOFFOLDERWITHTEXTS/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --stopword-file NAMEOFFILE.txt 
 ```
 
+For PC:
+
+```sh
+bin\mallet import-dir --input NAMEOFFOLDERWITHTEXTS/ --output texts.mallet --keep-sequence --remove-stopwords --extra-stopwords C:\mallet\NAMEOFFILE.txt
+```
+
 
 -----
 
