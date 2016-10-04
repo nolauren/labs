@@ -134,6 +134,11 @@ Don’t have your own texts yet, or they’re not in the right format? We have a
 
 https://drive.google.com/file/d/0B1glRexbIUWoODZoaU5jb1NOcEk/edit?usp=sharing
 
+They are random samples.
+amstudiestxt - American Quarterly
+chaucer - The Chaucer Review
+bible - Journal of Bible and Religion 
+
 Once you uncompress the file, you’ll see a number of folders with names such as “avian”, “bible”, etc.  These titles roughly correspond with the subjects of the journals they were pulled from.
 
 If you happen to inspect any of these individual text files, you’ll notice they’re not readable by a human because they’re just lists of word counts. This is how JSTOR can grant access to in-copyright material for text mining purposes. Even though we can’t read them easily, Mallet can still find patterns in word co-occurrence.
