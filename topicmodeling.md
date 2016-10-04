@@ -134,10 +134,11 @@ Don’t have your own texts yet, or they’re not in the right format? We have a
 
 https://drive.google.com/file/d/0B1glRexbIUWoODZoaU5jb1NOcEk/edit?usp=sharing
 
-They are random samples.
-amstudiestxt - American Quarterly
-chaucer - The Chaucer Review
-bible - Journal of Bible and Religion 
+Since Jstor is giving us issues, you can use one of the following for the assignment. They are a random selection of 1,000 documents from the journals. 
+
+- amstudiestxt - American Quarterly (Since we discussed AQ in class, a more in-depth analysis will be expected.)
+- chaucer - The Chaucer Review
+- bible - Journal of Bible and Religion 
 
 Once you uncompress the file, you’ll see a number of folders with names such as “avian”, “bible”, etc.  These titles roughly correspond with the subjects of the journals they were pulled from.
 
