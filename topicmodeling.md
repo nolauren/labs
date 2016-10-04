@@ -203,6 +203,15 @@ bin\mallet train-topics --input texts.mallet --num-topics 10 --optimize-interval
 
 (the difference between these two is that the JSTOR sample data can’t provide multiple-word phrases for each topic, due to the way the data is provided.)
 
+Adding custom stop words:
+
+Create a file (NAMEOFFILE.txt) with your stop words and put it directly in the mallet folder (in our case mallet-2.0.7).
+
+```sh
+bin/mallet import-dir --input NAMEOFFOLDERWITHTEXTS/ --output texts.mallet  --token-regex '\p{L}[\p{L}\p{P}]*\p{L}' --keep-sequence --stopword-file NAMEOFFILE.txt 
+```
+
+
 -----
 
 # Next Steps
