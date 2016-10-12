@@ -21,11 +21,5 @@ Next, we need to add our city map.  Go to 'Add Data' and select STATE_DATE.jpg.
 Open the [ Georeferencing Training Manual](https://github.com/introdh2016/other/blob/master/HOLC%20Georeferencing%20Training%20Manual.pdf) and turn to "Step 4" on page 17 of the PDF.
 
  
-Assignment:
-
-When you are done, save your work back to Box. 
-
-Discuss the process of georeferencing and implications for the study of maps/ past...
-Data creation - 
-Draw some initial thesis or arguments about the redlining maps
-Pick a census tract and compare/contrast the past to present. What questions does this initial comparison prompt?
+# Assignment 
+ 
