@@ -18,7 +18,7 @@ Next, we need to add our city map.  Go to 'Add Data' and select STATE_DATE.jpg.
 
 #Georeferencing
 
-Open the [ Georeferencing Training Manual](https://github.com/introdh2016/other/blob/master/HOLC%20Georeferencing%20Training%20Manual.pdf)and turn to "Step 4" on page 17 of the PDF.
+Open the [ Georeferencing Training Manual](https://github.com/introdh2016/other/blob/master/HOLC%20Georeferencing%20Training%20Manual.pdf) and turn to "Step 4" on page 17 of the PDF.
 
  
 Assignment:
