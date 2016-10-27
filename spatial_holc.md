@@ -22,5 +22,18 @@ Open the [ Georeferencing Training Manual](https://github.com/introdh2016/other/
 
 When you are done, save your work back to Box. 
  
-# Assignment 
+##  Explore Census info
+
+Right click on the Census_tract_2010. Select Attribution -> Symbology. Once there, you can change the "Value" to White, Black or another category. Make sure to normalize by total population. You can adjust the number of buckets. Explore!
+
+## Information
+ If you want to see more data about the census tract,  click on the "i" button next to the cursor button on the top toolbar (right below Geoprocessing). 
+ 
+## Legends
+On the botton right corner, there is a Layout view.  Click on Layout view.   Go to Insert -> Legend.  In "Legend Items" put "Census_tracts_2010".   Give your map a Title.  Play around with the Legend Frame.   If you want to zoom in to show a particular part of the map, you can go to the top left where there is a zoom buttom (magnifying glass with a + sign). 
+ 
+## Export 
+ File -> Export Map -> .JPG
+ 
+ 
  
