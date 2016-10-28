@@ -6,7 +6,7 @@ To download, click the  '...' by your city and select 'Download'. Save to the De
 
 ## ArcMap
 
-Launceh ArcMap. 
+Launch ArcMap. 
 
 Select the 'Add Data' button.  Browse to your folder. Click on the CITY_Shapefile folder.  Add the shapefile. 
 
@@ -21,10 +21,27 @@ Next, we need to add our city map.  Go to 'Add Data' and select STATE_DATE.jpg.
 Open the [ Georeferencing Training Manual](https://github.com/introdh2016/other/blob/master/HOLC%20Georeferencing%20Training%20Manual.pdf) and turn to "Step 4" on page 17 of the PDF.
 
 When you are done, save your work back to Box. 
+
+## Data
+
+Go to [Box.](https://richmond.box.com/s/fdx37gk9zeug25ay39d917pe8skej65v) Pick a map. There is one close to your hometown. 
+To download, click the  '...' by your city and select 'Download'. Save to the Desktop.
+
+## ArcMap
+
+Launch ArcMap. 
+
+Select the 'Add Data' button.  Browse to your folder. Click on the Census_2010 folder.  Add the shapefile. 
+
+What do you see?
+
+It is the 2010 Census information for that state.
+
+Next, do the same for the georectified map. 
  
 ##  Explore Census info
 
-Right click on the Census_tract_2010. Select Attribution -> Symbology. Once there, you can change the "Value" to White, Black or another category. Make sure to normalize by total population. You can adjust the number of buckets. Explore!
+Right click on the Census_tract_2010. Select Properties -> Symbology. Change the "Show" on the left side to Quantities. Once there, you can change the "Value" to White, Black or another category. Make sure to normalize by total population (total). You can adjust the number of buckets. Explore!
 
 ## Information
  If you want to see more data about the census tract,  click on the "i" button next to the cursor button on the top toolbar (right below Geoprocessing). 
@@ -34,6 +51,9 @@ On the botton right corner, there is a Layout view.  Click on Layout view.   Go 
  
 ## Export 
  File -> Export Map -> .JPG
+ 
+##Explore Neighborhoods
+To explore neighborhoods go to dsl.richmond.edu/panorama/redlining
  
  
  
